@@ -27,14 +27,14 @@
 }
 
 .tecnologia-conteudo h2 {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .tecnologia-conteudo > p {
   margin-bottom: 20px;
 }
 
-.tecnologia-conteudo > a {
+.tecnologia a {
   margin-bottom: 80px;
 }
 
@@ -60,22 +60,19 @@
   .tecnologia {
     grid-template-columns: 1fr;
   }
-
   .tecnologia-conteudo {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
   .tecnologia-imagem {
     display: none;
   }
-
-  .tecnologia-conteudo a {
+  .tecnologia a {
     margin-bottom: 60px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .tecnologia-vantagens {
     flex-direction: column;
   }
