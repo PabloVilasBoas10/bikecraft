@@ -29,7 +29,7 @@
 }
 
 .lojas-conteudo h3,
-.lojas-conteudo .lojas-tempo {
+.lojas-tempo {
   grid-column: 1/-1;
 }
 
@@ -52,11 +52,9 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
   .lojas h2 {
-    margin-bottom: 32;
+    margin-bottom: 32px;
   }
-
   .lojas-conteudo {
     grid-template-columns: 1fr;
   }
